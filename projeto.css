@@ -60,7 +60,7 @@ main {
     flex-wrap: wrap;
 }
 
-section.disciplina {
+section {
     width: 30%;
     background-color: white;
     padding: 20px;
@@ -69,28 +69,28 @@ section.disciplina {
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
 }
 
-section.disciplina h2 {
+section h2 {
     margin-bottom: 15px;
     font-size: 24px;
     color: #333;
 }
 
-section.disciplina ul {
+section ul {
     list-style-type: none;
 }
 
-section.disciplina ul li {
+section ul li {
     margin-bottom: 10px;
 }
 
-section.disciplina ul li a {
+section ul li a {
     text-decoration: none;
-    color: #D1A7E0; /* Cor roxa clara para os links das seções */
+    color: #D1A7E0; /* Cor roxa clara para os links */
     font-size: 18px;
 }
 
-section.disciplina ul li a:hover {
-    color: #9e7bb5; /* Tom de roxo escuro para hover nas seções */
+section ul li a:hover {
+    color: #9e7bb5; /* Tom de roxo escuro para hover */
 }
 
 /* Rodapé */
