@@ -94,9 +94,13 @@ section.disciplina ul li a:hover {
 footer {
     text-align: center;
     padding: 15px;
-    background-color: #333;
-    color: white;
-    position: fixed;
-    bottom: 0;
-    width: 100%;
+    background-color: white;
+    color: black;
+    font-family: Arial, sans-serif;
+    border-top: 2px solid #D1A7E0;
+}
+
+footer .tema {
+    color: #D1A7E0;
+    font-weight: bold;
 }
