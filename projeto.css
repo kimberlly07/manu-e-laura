@@ -1,0 +1,102 @@
+/* Estilo global */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+    background-color: #f4f4f4;
+}
+
+/* Cabeçalho */
+header {
+    display: flex;
+    justify-content: space-between;
+    background-color: #333;
+    padding: 10px 20px;
+    color: white;
+}
+
+header nav {
+    display: flex;
+    align-items: center;
+}
+
+header nav ul {
+    list-style-type: none;
+    display: flex;
+}
+
+header nav ul li {
+    margin-right: 20px;
+}
+
+header nav ul li a {
+    text-decoration: none;
+    color: white;
+    font-size: 18px;
+    padding: 5px 10px;
+    transition: background-color 0.3s;
+}
+
+header nav ul li a:hover {
+    background-color: #555;
+}
+
+/* Menu Externo */
+.menu-externo {
+    margin-right: 50px;
+}
+
+/* Corpo do site */
+main {
+    padding: 20px;
+    display: flex;
+    justify-content: space-between;
+}
+
+section.disciplina {
+    width: 30%;
+    background-color: white;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+section.disciplina h2 {
+    margin-bottom: 15px;
+    font-size: 24px;
+    color: #333;
+}
+
+section.disciplina ul {
+    list-style-type: none;
+}
+
+section.disciplina ul li {
+    margin-bottom: 10px;
+}
+
+section.disciplina ul li a {
+    text-decoration: none;
+    color: #007BFF;
+    font-size: 18px;
+}
+
+section.disciplina ul li a:hover {
+    color: #0056b3;
+}
+
+/* Rodapé */
+footer {
+    text-align: center;
+    padding: 15px;
+    background-color: #333;
+    color: white;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+}
