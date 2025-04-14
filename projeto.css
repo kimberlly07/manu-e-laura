@@ -9,6 +9,7 @@ body {
     font-family: Arial, sans-serif;
     line-height: 1.6;
     background-color: #f4f4f4;
+    padding: 0;
 }
 
 /* Cabeçalho */
@@ -18,6 +19,11 @@ header {
     background-color: #333;
     padding: 10px 20px;
     color: white;
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    z-index: 100;
 }
 
 header nav {
@@ -46,22 +52,19 @@ header nav ul li a:hover {
     background-color: #555;
 }
 
-/* Menu Externo */
-.menu-externo {
-    margin-right: 50px;
-}
-
 /* Corpo do site */
 main {
-    padding: 20px;
+    padding: 80px 20px 20px; /* Ajuste para o espaço do cabeçalho fixo */
     display: flex;
     justify-content: space-between;
+    flex-wrap: wrap;
 }
 
 section.disciplina {
     width: 30%;
     background-color: white;
     padding: 20px;
+    margin-bottom: 20px;
     border-radius: 8px;
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
 }
