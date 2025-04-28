@@ -67,6 +67,12 @@ section {
     background-color: #f4f4f4;
     padding: 20px;
     border-radius: 8px;
+    border: 2px solid #388E3C; /* Bordas verdes mais escuras */
+    transition: all 0.3s;
+}
+
+section:hover {
+    border-color: #2C6B2F; /* Escurece a borda quando passar o mouse */
 }
 
 section h2 {
@@ -92,6 +98,12 @@ section ul li a {
 
 section ul li a:hover {
     color: #4CAF50;
+}
+
+/* Adicionando espaçamento entre parágrafos */
+section p {
+    margin-top: 20px;
+    line-height: 1.6;
 }
 
 /* Estilos para o rodapé */
