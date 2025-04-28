@@ -1,4 +1,4 @@
-/* Estilo global */
+/* RESET de alguns estilos padrão */
 * {
     margin: 0;
     padding: 0;
@@ -6,104 +6,104 @@
 }
 
 body {
-    font-family: Arial, sans-serif;
-    line-height: 1.6;
-    background-color: #f4f4f4;
-    padding: 0;
-}
-
-/* Cabeçalho */
-header {
-    display: flex;
-    justify-content: space-between;
-    background-color: #333;
-    padding: 10px 20px;
-    color: white;
-    position: fixed;
-    top: 0;
-    left: 0;
-    width: 100%;
-    z-index: 100;
-}
-
-header nav {
-    display: flex;
-    align-items: center;
-}
-
-header nav ul {
-    list-style-type: none;
-    display: flex;
-}
-
-header nav ul li {
-    margin-right: 20px;
-}
-
-header nav ul li a {
-    text-decoration: none;
-    color: #D1A7E0; /* Cor roxa clara para os links */
-    font-size: 18px;
-    padding: 5px 10px;
-    transition: background-color 0.3s;
-}
-
-header nav ul li a:hover {
-    background-color: #9e7bb5; /* Tom de roxo escuro para hover */
-}
-
-/* Corpo do site */
-main {
-    padding: 80px 20px 20px; /* Ajuste para o espaço do cabeçalho fixo */
-    display: flex;
-    justify-content: space-between;
-    flex-wrap: wrap;
-}
-
-section {
-    width: 30%;
-    background-color: white;
-    padding: 20px;
-    margin-bottom: 20px;
-    border-radius: 8px;
-    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
-}
-
-section h2 {
-    margin-bottom: 15px;
-    font-size: 24px;
+    font-family: 'Arial', sans-serif;
+    background-color: #fff;
     color: #333;
 }
 
+/* Estilo do cabeçalho */
+header {
+    background-color: #fff;
+    padding: 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+nav {
+    display: flex;
+}
+
+nav ul {
+    list-style: none;
+    display: flex;
+}
+
+nav ul li {
+    margin-right: 20px;
+}
+
+nav ul li a {
+    text-decoration: none;
+    color: #4CAF50; /* Verde */
+    font-size: 18px;
+    font-family: 'fantasy', sans-serif; /* Fonte fancy */
+    padding: 5px 10px;
+    transition: color 0.3s;
+}
+
+nav ul li a:hover {
+    color: #000; /* Preto quando passar o mouse */
+}
+
+/* Estilo para a navegação externa */
+.nav-externa {
+    margin-right: auto;
+}
+
+/* Estilo para a navegação interna */
+.nav-interna {
+    margin-left: auto;
+}
+
+/* Estilos para o corpo */
+main {
+    padding: 40px;
+    display: grid;
+    gap: 40px;
+}
+
+section {
+    background-color: #f4f4f4;
+    padding: 20px;
+    border-radius: 8px;
+}
+
+section h2 {
+    font-size: 24px;
+    font-family: 'fantasy', sans-serif;
+    margin-bottom: 20px;
+    color: #4CAF50;
+}
+
 section ul {
-    list-style-type: none;
+    list-style: none;
 }
 
 section ul li {
-    margin-bottom: 10px;
+    margin-bottom: 15px;
 }
 
 section ul li a {
     text-decoration: none;
-    color: #D1A7E0; /* Cor roxa clara para os links */
+    color: #333;
     font-size: 18px;
 }
 
 section ul li a:hover {
-    color: #9e7bb5; /* Tom de roxo escuro para hover */
+    color: #4CAF50;
 }
 
-/* Rodapé */
+/* Estilos para o rodapé */
 footer {
+    background-color: #000;
+    color: #fff;
     text-align: center;
     padding: 15px;
-    background-color: white;
-    color: black;
-    font-family: Arial, sans-serif;
-    border-top: 2px solid #D1A7E0; /* Detalhe em roxo claro */
+    font-size: 16px;
+    margin-top: 40px;
 }
 
-footer .tema {
-    color: #D1A7E0; /* Cor roxa clara */
-    font-weight: bold;
+footer p {
+    font-family: 'fantasy', sans-serif;
 }
