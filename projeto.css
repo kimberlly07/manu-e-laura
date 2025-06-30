@@ -35,7 +35,7 @@ nav ul li {
 
 nav ul li a {
     text-decoration: none;
-    color: #4CAF50; /* Verde */
+    color: #4243b3; /* Verde */
     font-size: 18px;
     font-family: 'fantasy', sans-serif; /* Fonte fancy */
     padding: 5px 10px;
@@ -57,19 +57,20 @@ section {
     background-color: #f4f4f4;
     padding: 20px;
     border-radius: 8px;
-    border: 2px solid #388E3C; /* Bordas verdes mais escuras */
+    border: 2px solid #4243b3
+    ; /* Bordas verdes mais escuras */
     transition: all 0.3s;
 }
 
 section:hover {
-    border-color: #2C6B2F; /* Escurece a borda quando passar o mouse */
+    border-color: #4243b3; /* Escurece a borda quando passar o mouse */
 }
 
 section h2 {
     font-size: 24px;
     font-family: 'fantasy', sans-serif;
     margin-bottom: 20px;
-    color: #4CAF50;
+    color: #4243b3;
 }
 
 section ul {
@@ -87,7 +88,7 @@ section ul li a {
 }
 
 section ul li a:hover {
-    color: #4CAF50;
+    color: #4243b3;
 }
 
 /* Adicionando espaçamento entre parágrafos */
